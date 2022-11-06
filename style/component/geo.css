@@ -1,0 +1,31 @@
+#geo-hidden {
+  display: none;
+}
+
+#geo {
+  border: 1px solid black;
+  width: 20vw;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 60;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+#img-div {
+  border: 1px solid black;
+}
+#city-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#city,
+#weather,
+#country,
+#curtemp {
+  margin: 3px;
+}

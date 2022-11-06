@@ -1,0 +1,46 @@
+#todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#todo-list {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+#todo-list li {
+  border-bottom: 1px solid black;
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#todo-form {
+  position: relative;
+  margin-bottom: 15px;
+}
+#todoinput {
+  border: none;
+  width: 20vw;
+  height: auto;
+  border-radius: 5px;
+}
+#todobtn {
+  border: none;
+  position: absolute;
+  right: -5px;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+  background-color: white;
+  cursor: pointer;
+}
+li button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}

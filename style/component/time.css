@@ -1,0 +1,14 @@
+#time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poor Story", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 10px;
+  color: white;
+}
+.yearMonth {
+}
+.timeSec {
+  font-size: 50px;
+}
